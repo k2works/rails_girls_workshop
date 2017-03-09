@@ -134,3 +134,4 @@ $ rails generate controller pages info
 # 参照 #
 + [Rails Girls ガイド](http://railsgirls.jp/)
 + [Rails Girls インストール・レシピ](http://railsgirls.jp/install)
++ [Rails Girls アプリ・チュートリアル](http://railsgirls.jp/app)
