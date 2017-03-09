@@ -138,6 +138,22 @@ cd /vagrant/projects/railsgirls/
 heroku login
 ```
 
+#### アプリの準備
+バージョン管理システム
+```bash
+$ git init
+$ echo public/uploads >> .gitignore
+$ git add .
+$ git commit -m "initial commit"
+```
+データベースのアップデート
+```bash
+
+bundle install --without production
+git add .
+git commit -a -m "Added pg gem and updated Gemfile.lock"
+```
+
 **[⬆ back to top](#構成)**
 
 # 参照 #
