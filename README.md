@@ -163,6 +163,15 @@ $ heroku info
 ```
 Web URLのリンク先でアプリケーションを確認する
 
+### C.「GitHub であなた アプリ コードを公開しよう」 で GitHub にコードを公開するまで
+#### はじめる前に必要な準備
+```bash
+$ git --version
+$ git config --global user.name "your-name"
+$ git config --global user.email "your-email"
+$ git config --list
+```
+
 **[⬆ back to top](#構成)**
 
 # 参照 #
