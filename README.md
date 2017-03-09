@@ -109,6 +109,11 @@ $ rails server -b 0.0.0.0
 
 #### デザインする
 
+#### 写真アップロード機能を追加する
+```bash
+$ bundle
+$ rails generate uploader Picture
+```
 
 ### B.「あなた アプリをインターネットに公開しよう -heroku-」 完了
 
