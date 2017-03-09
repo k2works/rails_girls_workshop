@@ -115,6 +115,9 @@ $ bundle
 $ rails generate uploader Picture
 ```
 
+#### routesを調整する
+
+
 ### B.「あなた アプリをインターネットに公開しよう -heroku-」 完了
 
 ### C.「GitHub であなた アプリ コードを公開しよう」 で GitHub にコードを公開するまで
