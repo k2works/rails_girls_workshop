@@ -129,6 +129,15 @@ $ rails generate controller pages info
 **[⬆ back to top](#構成)**
 
 ## 配置
+### B.「あなた アプリをインターネットに公開しよう -heroku-」 完了
+#### Herokuの準備
+[https://signup.heroku.com/](https://signup.heroku.com/)
+
+```bash
+cd /vagrant/projects/railsgirls/
+heroku login
+```
+
 **[⬆ back to top](#構成)**
 
 # 参照 #
