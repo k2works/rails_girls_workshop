@@ -193,3 +193,4 @@ $ git push origin master
 + [Rails Girls インストール・レシピ](http://railsgirls.jp/install)
 + [Rails Girls アプリ・チュートリアル](http://railsgirls.jp/app)
 + [Heroku に Rails アプリをアップ](http://railsgirls.jp/heroku)
++ [GitHubに自分のアプリをPushする](http://railsgirls.jp/github)
