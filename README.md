@@ -107,6 +107,9 @@ $ rails server -b 0.0.0.0
 ```
 [http://localhost:3000/ideas](http://localhost:3000/ideas)に接続して動作を確認する。
 
+#### デザインする
+
+
 ### B.「あなた アプリをインターネットに公開しよう -heroku-」 完了
 
 ### C.「GitHub であなた アプリ コードを公開しよう」 で GitHub にコードを公開するまで
