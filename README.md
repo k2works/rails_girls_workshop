@@ -46,6 +46,12 @@ $ rails server -b 0.0.0.0
 [http://localhost:3000/](http://localhost:3000/)に接続して動作を確認する。
 確認できたらCtr-cで動作を停止する。
 
+### ブラウザ(Google Chrome)インストール
+[https://www.google.co.jp/chrome/browser/desktop/](https://www.google.co.jp/chrome/browser/desktop/)
+
+### GitHub アカウント取得
+[https://github.com/](https://github.com/)
+
 ### アプリケーション開発の準備
 #### サンプルアプリケーションをスキャッフォルドで作成する
 ```bash
@@ -74,9 +80,6 @@ bundle exec rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 26162 -- bin
 Visual Studio Codeでブレークポイントを設定してListen for rdebug-ideを実行する
 注意：仮想マシン経由だとブレークポイントにうまくアタッチされないのでローカルで実行する
 
-### ブラウザ(Google Chrome)インストール
-
-### GitHub アカウント取得
 **[⬆ back to top](#構成)**
 
 ## 開発
