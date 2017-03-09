@@ -169,3 +169,4 @@ Web URLのリンク先でアプリケーションを確認する
 + [Rails Girls ガイド](http://railsgirls.jp/)
 + [Rails Girls インストール・レシピ](http://railsgirls.jp/install)
 + [Rails Girls アプリ・チュートリアル](http://railsgirls.jp/app)
++ [Heroku に Rails アプリをアップ](http://railsgirls.jp/heroku)
