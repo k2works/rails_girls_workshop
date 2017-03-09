@@ -93,10 +93,19 @@ Visual Studio Codeでブレークポイントを設定してListen for rdebug-id
 ```bash
 $ cd /vagrant
 $ mkdir projects
+$ cd projects
 $ rails new railsgirls
 $ cd railsgirls
 $ rails server -b 0.0.0.0
 ```
+
+#### Ideaのscaffoldをする
+```bash
+$ rails generate scaffold idea name:string description:text picture:string
+$ rails db:migrate
+$ rails server -b 0.0.0.0
+```
+[http://localhost:3000/ideas](http://localhost:3000/ideas)に接続して動作を確認する。
 
 ### B.「あなた アプリをインターネットに公開しよう -heroku-」 完了
 
