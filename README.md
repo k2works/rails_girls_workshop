@@ -19,8 +19,32 @@ RailsGirls福岡ワークショップ
 
 ## 構築
 ### 「 Rails インストールガイド」で,Ruby,Ruby on Rails,テキストエディタをインストール
+#### 仮想マシンの起動とログイン
+```bash
+$ vagrant up
+$ vagrant ssh
+$ cd /vagrant
+```
+
+#### Railsのインストール
+```bash
+$ gem install rails --no-document
+```
+
+#### テキストエディタをインストール
++ [ATOM](https://atom.io/)
++ [Sublime Text](https://www.sublimetext.com/)
++ [Visual Studio Code](http://railsgirls.jp/install)
 
 ### 簡単な動作確認 (rails new 、 rails g scaffold コマンドがエラーなく終了するところまで)
+```bash
+cd /vagrant
+rails new railsgirls
+cd railsgirls
+rails server -b 0.0.0.0
+```
+[http://localhost:3000/](http://localhost:3000/)に接続して動作を確認する。
+確認できたらCtr-cで動作を停止する。
 
 ### ブラウザ(Google Chrome)インストール
 
@@ -39,3 +63,5 @@ RailsGirls福岡ワークショップ
 **[⬆ back to top](#構成)**
 
 # 参照 #
++ [Rails Girls ガイド](http://railsgirls.jp/)
++ [Rails Girls インストール・レシピ](http://railsgirls.jp/install)
