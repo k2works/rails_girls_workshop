@@ -57,6 +57,23 @@ $ rails server -b 0.0.0.0
 [http://localhost:3000/samples](http://localhost:3000/samples)に接続して動作を確認する。
 確認できたらCtr-cで動作を停止する。
 
+#### サンプルアプリケーションをデバッグできるようにする(Visual Studio Code)
+`Gemfile`に以下のGemを追加して`bundle install`を実行する
+```ruby
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'ruby-debug-ide'
+  gem 'debase'
+```
+
+Visual Studio Codeに構成を追加する
+
+```bash
+bundle exec rdebug-ide --host 0.0.0.0 --port 1234 --dispatcher-port 26162 -- bin/rails s -b 0.0.0.0
+```
+Visual Studio Codeでブレークポイントを設定してListen for rdebug-ideを実行する
+注意：仮想マシン経由だとブレークポイントにうまくアタッチされないのでローカルで実行する
+
 ### ブラウザ(Google Chrome)インストール
 
 ### GitHub アカウント取得
