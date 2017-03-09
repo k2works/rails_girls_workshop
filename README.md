@@ -88,6 +88,15 @@ Visual Studio Codeでブレークポイントを設定してListen for rdebug-id
 
 ## 開発
 ### A.「はじめてのRails アプリ」 「アプリにページを追加する」まで
+#### アプリケーションを作る
+以下の作業は開発用仮想マシンにログインした状態から実施する
+```bash
+$ cd /vagrant
+$ mkdir projects
+$ rails new railsgirls
+$ cd railsgirls
+$ rails server -b 0.0.0.0
+```
 
 ### B.「あなた アプリをインターネットに公開しよう -heroku-」 完了
 
