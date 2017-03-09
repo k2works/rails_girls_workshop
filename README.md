@@ -174,8 +174,16 @@ $ git config --list
 
 #### 自分のアプリを、コマンドラインでGitHubにPushする
 ```bash
-git remote add origin https://github.com/k2works/railsgirls.git
-git push -u origin master
+$ git remote add origin https://github.com/k2works/railsgirls.git
+$ git push -u origin master
+```
+
+```bash
+$ git add .
+
+$ git commit -m "type your commit message here"
+
+$ git push origin master
 ```
 
 **[⬆ back to top](#構成)**
