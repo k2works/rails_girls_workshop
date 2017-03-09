@@ -38,12 +38,23 @@ $ gem install rails --no-document
 
 ### 簡単な動作確認 (rails new 、 rails g scaffold コマンドがエラーなく終了するところまで)
 ```bash
-cd /vagrant
-rails new railsgirls
-cd railsgirls
-rails server -b 0.0.0.0
+$ cd /vagrant
+$ rails new railsgirls
+$ cd railsgirls
+$ rails server -b 0.0.0.0
 ```
 [http://localhost:3000/](http://localhost:3000/)に接続して動作を確認する。
+確認できたらCtr-cで動作を停止する。
+
+### アプリケーション開発の準備
+#### サンプルアプリケーションをスキャッフォルドで作成する
+```bash
+$ cd /vagrant/railsgirls
+$ rails g scaffold sample comment:string
+$ bin/rails db:migrate
+$ rails server -b 0.0.0.0
+```
+[http://localhost:3000/samples](http://localhost:3000/samples)に接続して動作を確認する。
 確認できたらCtr-cで動作を停止する。
 
 ### ブラウザ(Google Chrome)インストール
