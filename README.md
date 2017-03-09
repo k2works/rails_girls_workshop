@@ -149,10 +149,19 @@ $ git commit -m "initial commit"
 データベースのアップデート
 ```bash
 
-bundle install --without production
-git add .
-git commit -a -m "Added pg gem and updated Gemfile.lock"
+$ bundle install --without production
+$ git add .
+$ git commit -a -m "Added pg gem and updated Gemfile.lock"
 ```
+
+#### アプリのデプロイ
+```bash
+$ heroku create
+$ git push heroku master
+$ heroku run rails db:migrate
+$ heroku info
+```
+Web URLのリンク先でアプリケーションを確認する
 
 **[⬆ back to top](#構成)**
 
