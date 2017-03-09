@@ -61,7 +61,11 @@ $ bin/rails db:migrate
 $ rails server -b 0.0.0.0
 ```
 [http://localhost:3000/samples](http://localhost:3000/samples)に接続して動作を確認する。
-確認できたらCtr-cで動作を停止する。
+確認できたらCtr-cで動作を停止してアプリケーションを削除する
+```bash
+$ cd ..
+$ rm -rf railsgirls
+```
 
 #### サンプルアプリケーションをデバッグできるようにする(Visual Studio Code)
 `Gemfile`に以下のGemを追加して`bundle install`を実行する
