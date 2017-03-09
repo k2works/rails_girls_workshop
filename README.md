@@ -117,6 +117,11 @@ $ rails generate uploader Picture
 
 #### routesを調整する
 
+#### アプリにページを追加する
+```bash
+$ rails generate controller pages info
+```
+[http://localhost:3000/pages/info](http://localhost:3000/pages/info)
 
 ### B.「あなた アプリをインターネットに公開しよう -heroku-」 完了
 
